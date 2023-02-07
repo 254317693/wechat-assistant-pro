@@ -29,8 +29,7 @@ if (padLocalToken) {
 
 
 bot.use(WechatyWebPanelPlugin({
-    apiKey: '3d8122b788e9f10e14e94f81d2d0acce978fabd4', apiSecret: '3f3a02cc573fc2b71f2b5b33642abd006ade5c1f
-',
+    apiKey: '3d8122b788e9f10e14e94f81d2d0acce978fabd4', apiSecret: '3f3a02cc573fc2b71f2b5b33642abd006ade5c1f'
 }))
 bot.start()
     .catch((e) => console.error(e));
